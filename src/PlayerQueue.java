@@ -19,7 +19,7 @@ import java.util.LinkedList;
  * player 1     can't move      →   [False, True]
  * player 2     can't move      →   [False, False]
  */
-public class PlayerQueue extends LinkedList<Boolean> {
+public class PlayerQueue extends Queue {
 
     /**
      * Constructor for PlayerQueue
@@ -37,20 +37,6 @@ public class PlayerQueue extends LinkedList<Boolean> {
         return this.getFirst() || this.getLast();
     }
 
-    /**
-     * Adds a boolean value to the first position of the queue
-     * @param value
-     */
-    private void enqueue(boolean value) {
-        this.addFirst(value);
-    }
-
-    /**
-     * Removes last value from queue
-     */
-    private void dequeue() {
-        this.removeLast();
-    }
 
     /**
      * Updates the queue.

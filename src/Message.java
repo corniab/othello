@@ -53,7 +53,7 @@ public class Message {
      */
     private void setContent(String value) {
         switch (value) {
-            case "F0" -> content = "Let's play!";
+            case "F0" -> content = "Let's play! Type 'quit' to end and 'help' for help.";
             case "F1" -> content = "quit";
             case "F2" -> content = "help";
             case "F3" -> content = "Invalid Input.";
