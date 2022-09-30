@@ -18,6 +18,9 @@ about how I write my code which always improves my output. This project represen
 efforts to learn a new language and apply it to solve a novel (to me) problem.
 
 ## Software Demonstration
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=QQltoqQeAio
+" target="_blank"><img src="http://img.youtube.com/vi/QQltoqQeAio/0.jpg"
+alt="Demonstration of Othello" width="240" height="180" border="10" /></a>
 
 ## Development Environment
 - The program is written in Java 19.[^2]
